@@ -1,0 +1,487 @@
+
+body{
+  background-color: #EAAB32
+}
+
+h1{
+  color :#E6581F;
+  font-family: 'Amatic SC', cursive;
+  font-size:100px;
+  position: absolute;
+  margin-top: 60px;
+}
+  
+h2{
+  font-family: 'Amatic SC', cursive;
+  color:white;
+  
+}
+
+h4{
+   font-size:25px;
+   font-family: 'Amatic SC', cursive;
+   margin-left: 20%; 
+   color: white
+}
+h5{
+   font-size:15px;
+   font-family: "Source SansPro", "sans-serif"; 
+  color: #E6581F;
+  
+}
+
+hr{
+  clear: right;
+}
+section{
+  background-color:#EAAB32;
+}
+
+
+
+                              /*////entete////*/
+.bttn{
+   color:#E6581F;
+   font-family: 'Amatic SC', cursive;
+   background-repeat: no-repeat;
+   width :900px;
+   height : 500px;
+   text-align: justify;
+   position: static;
+   margin-left: 70%;  
+    font-size: 30px;
+  } 
+
+
+.bttn:hover{
+    color: #EAAB32;
+    transition: ease-in-out 0.2s;
+   
+    
+}
+
+nav {
+    
+    top: 20%;
+    position: static; 
+    background-image: url(https://i.imgur.com/jelkn5q.jpg);
+}
+
+
+                    /*////////////////perf/////////*/
+#performances h2{
+  margin-left: 45%; 
+  font-size:50px;
+}
+
+#performances{
+    height: 100%;
+    margin-left: 0%;    
+}
+
+#performances .text{
+    display: flex;
+    justify-content:left ;
+    align-items:left ;
+    text-shadow: 1px 2px 4px white; 
+    font-family: 'Amatic SC', cursive;
+}
+
+#performances ul{
+    display: inline-flex;
+    align-items: center;
+    width: 700%;
+}
+
+#performances li{
+   padding: 10px;
+   text-align: center; 
+  display:table;
+}
+
+#performances li h3{
+    font-size:30px;
+    margin-bottom: 5%;
+    margin-top: 0%;    
+}
+
+#performances ul li p{
+    text-align: left;
+    margin-bottom: 15%;
+}
+
+#performances .img-perf-1 img{
+    width: 200px; 
+    cursor: pointer;
+    transition: transform.5s.
+}
+#performances .img-perf-1 img:hover{
+   transform: scale(1.1) rotate(10deg)
+  
+}
+
+#performances .img-perf-2 img{
+    width: 200px;
+    cursor: pointer;
+    transition: transform.5s.  
+}
+#performances .img-perf-2 img:hover{ 
+     transform: scale(1.1) rotate(10deg)
+  
+}
+
+#performances .img-perf-3 img{
+    width: 170px;
+    cursor: pointer;
+    transition: transform.5s.
+}
+#performances .img-perf-3 img:hover{
+     transform: scale(1.1) rotate(10deg)
+  
+}
+    
+
+                            /*/////About us////////*/
+#about{font-size: 20px;
+    line-height: 18px;
+   
+  
+}
+#about h2{
+   font-size:50px;
+   font-family: 'Amatic SC', cursive;
+  margin-left: 50%;
+  
+   
+}
+p{
+  color:red;
+  font-family: "Source SansPro", "sans-serif";
+  background-color: ;
+  height: 00%;
+  margin-left: 0%;
+  text-align:;
+  text-shadow: 1px 2px 4px white;  
+  font-weight:bold;
+  margin: 1em 2em 2em; 
+  
+}
+#about p{
+   margin-left: 0%;     
+}
+#about img{
+  margin-left:5%; 
+  float: right;
+  width:40%;
+  height: 300 px; 
+ position: relative;  
+}
+
+.about-us_list {
+  width : 40%;
+  flex-direction :column ;
+  background-color: ;
+}
+
+.about-us_list li {
+  flex:1;
+  display:flex;
+}
+
+.about-us_list li p {
+  margin-bottom : 0px;
+  font-family: 'Amatic SC', cursive;
+  font-size : 30px;
+}
+
+.about-us_li--right {
+  justify-content : space-around;
+  text-align : right;
+}
+
+.big-data {
+  font-size : 90px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight : bold;
+}
+
+.big-data--red {
+  color : #ff6666;
+}
+
+.big-data--green {
+  color : #66ff66;
+}
+
+.big-data--blue {
+  color : #66b3ff;
+}
+
+.big-data--yellow {
+  color : #ffd966;
+}
+
+.big-data--purple {
+  color : #d966ff;
+}
+p.animegift {
+    font-size: 13px;
+    line-height: 18px;
+    background:  url(https://media.giphy.com/media/3ohs7XSqbkgNyC8GC4/giphy.gif)no-repeat;
+    background-size: 60%, 30%, 55%;
+    background-position: center;
+    background-attachment:fixed; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0) ;
+    margin: 20px;
+  font-weight: 900;
+}
+
+
+
+                    /*Prices/////////*/
+th{
+  color :rgb(46, 32, 13); /*blackclair*/
+  font-family: "Source SansPro", "sans-serif";
+  
+}
+#prices{
+   font-size: 30px;
+   margin: 2% 0 0 0;
+   background-color:rgb(238, 158, 83);
+   text-align:center;
+}
+
+
+.priceone{
+    background-color: rgb(46, 32, 13);
+    color:rgb(233, 140, 10);
+    font-family: "Source SansPro", "sans-serif";
+}
+
+.pricetwo{
+    background-color: #E6581F;
+    color:rgb(46, 32, 13);
+    font-family: "Source SansPro", "sans-serif";
+    text-align:center;
+   
+}
+
+.pricethree{
+    background-color: #DD061E;
+    color:rgb(46, 32, 13);
+    font-family: "Source SansPro", "sans-serif";
+    text-align:center;
+     
+}
+
+.pricefree{
+    background-color: rgb(46, 32, 13);
+    color:rgb(233, 140, 10);
+    font-family: "Source SansPro", "sans-serif";
+    text-align:center;
+}
+
+p.medium{
+    font-size:30;
+    font-family:sans-serif;
+    color: black;
+}
+p.small{
+    font-size:15px;
+    font-family:sans-serif;
+    color:red;
+}
+
+             /*////////////////////////////contact/////////////////////////*/
+#contact{
+    background-color: #E6581F;
+    height: 100%;
+    text-align: center;
+}
+
+#contact .all-contact{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#contact #title{
+    margin: 4%;
+    font-size: 20px;
+    color: white;
+}
+
+#contact{
+    background-color: #E6581F;
+    height: 100%;
+    text-align: center;
+}
+
+#contact .all-contact{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact #title{
+    margin: 0;
+    font-size: 4em;
+    color: white;
+}
+
+#contact .formulaire{
+    width: 50%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#contact input, textarea{
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 3%;
+    padding: 7px;
+
+    text-align: left;
+    background: white;
+    font-family: "Roboto";
+    
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#contact textarea{
+    height: 200px;
+}
+
+#contact button{
+    width: 30%;
+    padding: 10px;
+    background: #6F051D;
+    
+    font-family: "Amatic SC";
+    font-size: 1.3em;
+    color: white;
+    
+    border-radius: 10px;
+    border: none;
+    
+    transition: ease-in-out 0.2s;
+}
+
+#contact button:hover{
+    transform: scale(0.9);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+#contact .infos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact .infos .map{
+    width: 80%;
+    text-align: center;
+}
+
+#contact button{
+    width: 30%;
+    padding: 20px;
+    background: #6F051D;  
+    font-family:'Amatic SC', cursive; 
+    font-size: 25px;
+    color: white;
+    
+    border-radius: 500px;
+    border: none;
+    
+    transition: ease-in-out 0.2s;
+}
+#contact button:hover{
+    transform: scale(0.9);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+
+}
+
+#contact h2{
+    font-size: 50px;
+    margin: 2% 0 0 0;
+}
+
+#contact .infos ul li img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+#contact .infos .map img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: ease-in-out 0.2s;
+}
+#contact h2{
+    font-size: 2em;
+    margin: 2% 0 0 0;
+}
+
+#contact p{
+    font-size: 1em;
+    margin: 0;
+}
+
+#contact .infos ul{
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+#contact .infos ul li img{
+    width: 30%;
+    transition: ease-in-out 0.2s;
+}
+
+#contact .infos ul li img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+      /*------- CB payement//////*/
+
+
+
+          /*//////////////////////FOOTER//////////////////*/
+footer{
+    text-align: center;
+    margin-top: %;
+    margin-bottom: %;
+    background-color:white;
+  
+   
+}
+
+footer p{
+    font-size:20px;
+   
+}
+
+footer a{
+    color: #E6581F;
+    transition: ease-in-out 0.2s;
+}
+
+footer a:hover{
+    color: #EAAB32;
+    transition: ease-in-out 0.2s;
+}

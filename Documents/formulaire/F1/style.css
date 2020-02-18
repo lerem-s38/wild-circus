@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://i.imgur.com/1JE0try.jpg);
+    background-size: contain;
+
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: sans-serif;
+}  
+
+.contact-form title{
+    margin-top: 0;
+    font-weight: 200;
+
+}
+
+.txtb{
+    border: solid;
+    margin: 18px 0;
+    padding: 12px 18px;
+    border-radius: 10px;
+
+}
+
+.txtb label{
+    display: block;
+    text-align:justify;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.txtb input , .txtb textarea{
+    width 100%;
+    border: solid;
+    background : none;
+    outline: solid;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.btn{
+    display:inline-block ;
+    background: rgb(141, 90, 163);
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color:rgba(110, 17, 216, 0.719), green, blue) ;
+}
+
+.btn:active{
+    background-color: #9891c0;
+    transform: translateY(4px);
+    
+  }
+}
